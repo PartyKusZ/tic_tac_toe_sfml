@@ -1,0 +1,3 @@
+/home/kubus/Pulpit/tic_tac_toe_sfml/build/CMakeFiles/tic_tac_toe.dir
+/home/kubus/Pulpit/tic_tac_toe_sfml/build/CMakeFiles/edit_cache.dir
+/home/kubus/Pulpit/tic_tac_toe_sfml/build/CMakeFiles/rebuild_cache.dir
