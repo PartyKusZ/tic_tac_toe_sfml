@@ -284,12 +284,16 @@ CMakeFiles/tic_tac_toe.dir/src/main.cpp.o: ../src/main.cpp \
   /usr/include/SFML/Graphics/VertexBuffer.hpp \
   ../inc/gameboard.hpp \
   ../inc/circle.hpp \
+  ../inc/circle_cross_enum.hpp \
   ../inc/cross.hpp \
   ../inc/cross.hpp \
-  ../inc/circle.hpp
+  ../inc/circle.hpp \
+  /usr/include/c++/9/iostream
 
 
 ../inc/cross.hpp:
+
+../inc/circle_cross_enum.hpp:
 
 ../inc/gameboard.hpp:
 
@@ -362,6 +366,8 @@ CMakeFiles/tic_tac_toe.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/c++/9/bits/locale_facets.tcc:
 
 /usr/include/c++/9/ext/alloc_traits.h:
+
+/usr/include/c++/9/iostream:
 
 /usr/include/SFML/System/InputStream.hpp:
 

@@ -222,6 +222,8 @@ CMakeFiles/tic_tac_toe.dir/src/main.cpp.o: \
  /usr/include/SFML/Graphics/VertexBuffer.hpp \
  /home/kubus/Pulpit/tic_tac_toe_sfml/inc/gameboard.hpp \
  /home/kubus/Pulpit/tic_tac_toe_sfml/inc/circle.hpp \
+ /home/kubus/Pulpit/tic_tac_toe_sfml/inc/circle_cross_enum.hpp \
  /home/kubus/Pulpit/tic_tac_toe_sfml/inc/cross.hpp \
  /home/kubus/Pulpit/tic_tac_toe_sfml/inc/cross.hpp \
- /home/kubus/Pulpit/tic_tac_toe_sfml/inc/circle.hpp
+ /home/kubus/Pulpit/tic_tac_toe_sfml/inc/circle.hpp \
+ /usr/include/c++/9/iostream

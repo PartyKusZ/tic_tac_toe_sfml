@@ -3,6 +3,8 @@
 #include"gameboard.hpp"
 #include"cross.hpp"
 #include"circle.hpp"
+#include<iostream>
+using namespace std;
 int main()
 {
 
@@ -29,7 +31,8 @@ int main()
 
 
     sf::RenderWindow window(sf::VideoMode(787, 836,32), "SFML works!");
-    
+    sf :: Vector2i pozycja_myszki_okno;
+    sf :: Vector2f pozycja_myszki_scena;
 
     while (window.isOpen())
     {
@@ -42,6 +45,7 @@ int main()
 
         window.clear();
         window.draw(image_gameboard);
+        
         window.display();
     }
 
