@@ -143,7 +143,7 @@ void t_gameboard :: add_cross(int x, int y){
 void t_gameboard :: draw(sf :: RenderWindow &window){
 
     for(int i = 0; i < 3; ++i){
-        for(int j = 0; j < 0; ++j){
+        for(int j = 0; j < 3; ++j){
             if(tab[i][j].XO == t_circ_cross :: X){
                 cross.draw(window,tab[i][j].x,tab[i][j].y);
             }
