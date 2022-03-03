@@ -1,13 +1,35 @@
 #include <SFML/Graphics.hpp>
 #include<SFML/Window.hpp>
-
+#include"gameboard.hpp"
+#include"cross.hpp"
+#include"circle.hpp"
 int main()
 {
-    sf::RenderWindow window(sf::VideoMode(200, 200), "SFML works!");
-    sf::Texture texture;
-    texture.loadFromFile("textures/zdj.png");
-    sf::Sprite image;
-    image.setTexture(texture);
+
+    
+    t_gameboard gameboard;
+   
+
+
+    sf::Texture texture_gameboard;
+    
+
+    texture_gameboard.loadFromFile(gameboard.get_filename());
+   
+
+
+    sf::Sprite image_gameboard;
+   
+
+
+
+    image_gameboard.setTexture(texture_gameboard);
+    
+    
+
+
+    sf::RenderWindow window(sf::VideoMode(787, 836,32), "SFML works!");
+    
 
     while (window.isOpen())
     {
@@ -19,7 +41,7 @@ int main()
         }
 
         window.clear();
-        window.draw(image);
+        window.draw(image_gameboard);
         window.display();
     }
 

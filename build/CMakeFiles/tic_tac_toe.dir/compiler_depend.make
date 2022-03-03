@@ -281,8 +281,17 @@ CMakeFiles/tic_tac_toe.dir/src/main.cpp.o: ../src/main.cpp \
   /usr/include/SFML/Graphics/Glsl.inl \
   /usr/include/SFML/Graphics/Sprite.hpp \
   /usr/include/SFML/Graphics/Text.hpp \
-  /usr/include/SFML/Graphics/VertexBuffer.hpp
+  /usr/include/SFML/Graphics/VertexBuffer.hpp \
+  ../inc/gameboard.hpp \
+  ../inc/circle.hpp \
+  ../inc/cross.hpp \
+  ../inc/cross.hpp \
+  ../inc/circle.hpp
 
+
+../inc/cross.hpp:
+
+../inc/gameboard.hpp:
 
 /usr/include/SFML/Graphics/VertexBuffer.hpp:
 
@@ -703,6 +712,8 @@ CMakeFiles/tic_tac_toe.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/sched.h:
 
 /usr/include/wctype.h:
+
+../inc/circle.hpp:
 
 /usr/include/c++/9/bits/uses_allocator.h:
 

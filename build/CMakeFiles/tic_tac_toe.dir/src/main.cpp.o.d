@@ -219,4 +219,9 @@ CMakeFiles/tic_tac_toe.dir/src/main.cpp.o: \
  /usr/include/SFML/Graphics/Glsl.hpp /usr/include/SFML/Graphics/Glsl.inl \
  /usr/include/SFML/Graphics/Sprite.hpp \
  /usr/include/SFML/Graphics/Text.hpp \
- /usr/include/SFML/Graphics/VertexBuffer.hpp
+ /usr/include/SFML/Graphics/VertexBuffer.hpp \
+ /home/kubus/Pulpit/tic_tac_toe_sfml/inc/gameboard.hpp \
+ /home/kubus/Pulpit/tic_tac_toe_sfml/inc/circle.hpp \
+ /home/kubus/Pulpit/tic_tac_toe_sfml/inc/cross.hpp \
+ /home/kubus/Pulpit/tic_tac_toe_sfml/inc/cross.hpp \
+ /home/kubus/Pulpit/tic_tac_toe_sfml/inc/circle.hpp
