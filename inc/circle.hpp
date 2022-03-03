@@ -5,7 +5,7 @@
 #include<SFML/Window.hpp>
 #include<SFML/Graphics.hpp>
 
-#include"circle_cross_enum.hpp"
+#include"location.hpp"
 
 class t_circle{
 
@@ -23,7 +23,10 @@ class t_circle{
 
     public:
         t_circle() = default;
-        t_circle(int _x, int _y): x(_x), y(_y){;};
+        t_circle(int _x, int _y): x(_x), y(_y){
+            circle_texture.loadFromFile(filename);
+            circle_sprite.setTexture(circle_texture);
+        };
 
 
         std::string get_filename(){

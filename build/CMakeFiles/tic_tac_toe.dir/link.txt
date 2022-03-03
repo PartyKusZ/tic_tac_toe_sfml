@@ -1,1 +1,1 @@
-/usr/bin/c++ -rdynamic CMakeFiles/tic_tac_toe.dir/src/main.cpp.o -o tic_tac_toe  -lsfml-graphics -lsfml-window -lsfml-system 
+/usr/bin/c++ -rdynamic CMakeFiles/tic_tac_toe.dir/src/circle.cpp.o CMakeFiles/tic_tac_toe.dir/src/cross.cpp.o CMakeFiles/tic_tac_toe.dir/src/gameboard.cpp.o CMakeFiles/tic_tac_toe.dir/src/main.cpp.o -o tic_tac_toe  -lsfml-graphics -lsfml-window -lsfml-system 

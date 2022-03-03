@@ -1,4 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/tic_tac_toe.dir/src/circle.cpp.o"
+  "CMakeFiles/tic_tac_toe.dir/src/circle.cpp.o.d"
+  "CMakeFiles/tic_tac_toe.dir/src/cross.cpp.o"
+  "CMakeFiles/tic_tac_toe.dir/src/cross.cpp.o.d"
+  "CMakeFiles/tic_tac_toe.dir/src/gameboard.cpp.o"
+  "CMakeFiles/tic_tac_toe.dir/src/gameboard.cpp.o.d"
   "CMakeFiles/tic_tac_toe.dir/src/main.cpp.o"
   "CMakeFiles/tic_tac_toe.dir/src/main.cpp.o.d"
   "tic_tac_toe"

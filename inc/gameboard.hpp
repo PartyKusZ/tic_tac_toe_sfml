@@ -15,7 +15,7 @@
 #include<vector>
 #include"circle.hpp"
 #include"cross.hpp"
-#include"circle_cross_enum.hpp"
+#include"location.hpp"
 #include<SFML/Window.hpp>
 #include<SFML/Graphics.hpp>
 class t_gameboard {
@@ -41,7 +41,7 @@ class t_gameboard {
        void add_cross(int x, int y);
        void add_circle(int x, int y);
        void draw(sf :: RenderWindow &window);
-
+        
 
 };
 

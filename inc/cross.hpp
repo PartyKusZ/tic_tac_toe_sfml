@@ -1,7 +1,7 @@
 #ifndef CROSS_HPP
 #define CROSS_HPP
 #include <string>
-#include"circle_cross_enum.hpp"
+#include"location.hpp"
 #include<SFML/Window.hpp>
 #include<SFML/Graphics.hpp>
 
@@ -20,7 +20,10 @@ class t_cross{
 
     public:
         t_cross() = default;
-        t_cross(int _x, int _y): x(_x), y(_y){;};
+        t_cross(int _x, int _y): x(_x), y(_y){
+            cross_texture.loadFromFile(filename);
+            cross_sprite.setTexture(cross_texture);
+        };
 
         std::string get_filename(){
             return filename;

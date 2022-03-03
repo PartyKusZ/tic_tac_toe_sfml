@@ -129,6 +129,78 @@ tic_tac_toe/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tic_tac_toe.dir/build.make CMakeFiles/tic_tac_toe.dir/build
 .PHONY : tic_tac_toe/fast
 
+src/circle.o: src/circle.cpp.o
+.PHONY : src/circle.o
+
+# target to build an object file
+src/circle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tic_tac_toe.dir/build.make CMakeFiles/tic_tac_toe.dir/src/circle.cpp.o
+.PHONY : src/circle.cpp.o
+
+src/circle.i: src/circle.cpp.i
+.PHONY : src/circle.i
+
+# target to preprocess a source file
+src/circle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tic_tac_toe.dir/build.make CMakeFiles/tic_tac_toe.dir/src/circle.cpp.i
+.PHONY : src/circle.cpp.i
+
+src/circle.s: src/circle.cpp.s
+.PHONY : src/circle.s
+
+# target to generate assembly for a file
+src/circle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tic_tac_toe.dir/build.make CMakeFiles/tic_tac_toe.dir/src/circle.cpp.s
+.PHONY : src/circle.cpp.s
+
+src/cross.o: src/cross.cpp.o
+.PHONY : src/cross.o
+
+# target to build an object file
+src/cross.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tic_tac_toe.dir/build.make CMakeFiles/tic_tac_toe.dir/src/cross.cpp.o
+.PHONY : src/cross.cpp.o
+
+src/cross.i: src/cross.cpp.i
+.PHONY : src/cross.i
+
+# target to preprocess a source file
+src/cross.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tic_tac_toe.dir/build.make CMakeFiles/tic_tac_toe.dir/src/cross.cpp.i
+.PHONY : src/cross.cpp.i
+
+src/cross.s: src/cross.cpp.s
+.PHONY : src/cross.s
+
+# target to generate assembly for a file
+src/cross.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tic_tac_toe.dir/build.make CMakeFiles/tic_tac_toe.dir/src/cross.cpp.s
+.PHONY : src/cross.cpp.s
+
+src/gameboard.o: src/gameboard.cpp.o
+.PHONY : src/gameboard.o
+
+# target to build an object file
+src/gameboard.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tic_tac_toe.dir/build.make CMakeFiles/tic_tac_toe.dir/src/gameboard.cpp.o
+.PHONY : src/gameboard.cpp.o
+
+src/gameboard.i: src/gameboard.cpp.i
+.PHONY : src/gameboard.i
+
+# target to preprocess a source file
+src/gameboard.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tic_tac_toe.dir/build.make CMakeFiles/tic_tac_toe.dir/src/gameboard.cpp.i
+.PHONY : src/gameboard.cpp.i
+
+src/gameboard.s: src/gameboard.cpp.s
+.PHONY : src/gameboard.s
+
+# target to generate assembly for a file
+src/gameboard.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tic_tac_toe.dir/build.make CMakeFiles/tic_tac_toe.dir/src/gameboard.cpp.s
+.PHONY : src/gameboard.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -162,6 +234,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... tic_tac_toe"
+	@echo "... src/circle.o"
+	@echo "... src/circle.i"
+	@echo "... src/circle.s"
+	@echo "... src/cross.o"
+	@echo "... src/cross.i"
+	@echo "... src/cross.s"
+	@echo "... src/gameboard.o"
+	@echo "... src/gameboard.i"
+	@echo "... src/gameboard.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

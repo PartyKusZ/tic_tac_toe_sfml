@@ -8,6 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/kubus/Pulpit/tic_tac_toe_sfml/src/circle.cpp" "CMakeFiles/tic_tac_toe.dir/src/circle.cpp.o" "gcc" "CMakeFiles/tic_tac_toe.dir/src/circle.cpp.o.d"
+  "/home/kubus/Pulpit/tic_tac_toe_sfml/src/cross.cpp" "CMakeFiles/tic_tac_toe.dir/src/cross.cpp.o" "gcc" "CMakeFiles/tic_tac_toe.dir/src/cross.cpp.o.d"
+  "/home/kubus/Pulpit/tic_tac_toe_sfml/src/gameboard.cpp" "CMakeFiles/tic_tac_toe.dir/src/gameboard.cpp.o" "gcc" "CMakeFiles/tic_tac_toe.dir/src/gameboard.cpp.o.d"
   "/home/kubus/Pulpit/tic_tac_toe_sfml/src/main.cpp" "CMakeFiles/tic_tac_toe.dir/src/main.cpp.o" "gcc" "CMakeFiles/tic_tac_toe.dir/src/main.cpp.o.d"
   )
 
