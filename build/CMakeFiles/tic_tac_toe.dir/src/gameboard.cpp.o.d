@@ -226,4 +226,5 @@ CMakeFiles/tic_tac_toe.dir/src/gameboard.cpp.o: \
  /usr/include/SFML/Graphics/Text.hpp \
  /usr/include/SFML/Graphics/VertexBuffer.hpp \
  /home/kubus/Pulpit/tic_tac_toe_sfml/inc/location.hpp \
- /home/kubus/Pulpit/tic_tac_toe_sfml/inc/cross.hpp
+ /home/kubus/Pulpit/tic_tac_toe_sfml/inc/cross.hpp \
+ /usr/include/c++/9/iostream

@@ -224,6 +224,6 @@ CMakeFiles/tic_tac_toe.dir/src/main.cpp.o: \
  /home/kubus/Pulpit/tic_tac_toe_sfml/inc/circle.hpp \
  /home/kubus/Pulpit/tic_tac_toe_sfml/inc/location.hpp \
  /home/kubus/Pulpit/tic_tac_toe_sfml/inc/cross.hpp \
+ /usr/include/c++/9/iostream \
  /home/kubus/Pulpit/tic_tac_toe_sfml/inc/cross.hpp \
- /home/kubus/Pulpit/tic_tac_toe_sfml/inc/circle.hpp \
- /usr/include/c++/9/iostream
+ /home/kubus/Pulpit/tic_tac_toe_sfml/inc/circle.hpp
