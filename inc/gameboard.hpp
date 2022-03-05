@@ -25,7 +25,7 @@ class t_gameboard {
     private:
    
 
-        std :: string filename = "/home/kubus/Pulpit/tic_tac_toe_sfml/textures/gameboard.png";
+        std :: string filename = "textures/gameboard.png";
 
         t_location tab[3][3];
 

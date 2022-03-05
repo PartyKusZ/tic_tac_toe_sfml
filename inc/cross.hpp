@@ -8,7 +8,7 @@
 class t_cross{
 
     private:
-        std::string filename = "/home/kubus/Pulpit/tic_tac_toe_sfml/textures/X.png";
+        std::string filename = "textures/X.png";
 
         int x; //coordinate
         int y; //coordinate

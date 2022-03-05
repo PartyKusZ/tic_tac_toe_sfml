@@ -10,7 +10,7 @@
 class t_circle{
 
     private:
-        std::string filename = "/home/kubus/Pulpit/tic_tac_toe_sfml/textures/O.png";
+        std::string filename = "textures/O.png";
 
         int x; //coordinate
         int y; //coordinate
