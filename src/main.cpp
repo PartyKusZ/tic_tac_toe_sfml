@@ -25,14 +25,14 @@ int main()
         {
             if (event.type == sf::Event::Closed)
                 window.close();
-            gameboard.game_event(window,event);
+                gameboard.game_event(window,event);
         }
 
         
        
         gameboard.draw(window);
         gameboard.draw_circles_crosses(window);
-        gameboard.draw_win(window);
+        gameboard.draw_win(window,event);
 
         window.display();
     }

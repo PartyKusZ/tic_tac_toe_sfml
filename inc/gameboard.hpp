@@ -41,6 +41,8 @@ class t_gameboard {
 
         t_location who_win ;
 
+        int x_or_o = 0;
+
 
         
         
@@ -63,8 +65,9 @@ class t_gameboard {
        void add_circle(int x, int y);
        void draw_circles_crosses(sf :: RenderWindow &window);
        void game_event(sf :: RenderWindow &window, sf::Event &event); 
+       void clear_gameboard();
        t_location check_win();
-       void draw_win(sf :: RenderWindow &window);
+       void draw_win(sf :: RenderWindow &window,sf :: Event &event);
        bool win();
        
          

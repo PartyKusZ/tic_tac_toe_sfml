@@ -1,7 +1,7 @@
 #ifndef CCE_HPP
 #define CCE_HPP
 
-enum class t_circ_cross {X,O,empty};
+enum class t_circ_cross {X,O,empty,draw};
 
 class t_location {
     public:
