@@ -22,8 +22,8 @@ class t_circle{
 
 
     public:
-        t_circle() = default;
-        t_circle(int _x, int _y): x(_x), y(_y){
+        
+        t_circle() {
             circle_texture.loadFromFile(filename);
             circle_sprite.setTexture(circle_texture);
         };
@@ -37,9 +37,9 @@ class t_circle{
             return circ;
         };
 
-        void set_coord(int x, int y){
-            this->x = x;
-            this->y = y;
+        void set_coord(int _x, int _y){
+            this->x = _x;
+            this->y = _y;
         };
 
         void draw(sf :: RenderWindow &window, int _x, int _y);

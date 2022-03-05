@@ -19,8 +19,8 @@ class t_cross{
         sf :: Sprite cross_sprite;
 
     public:
-        t_cross() = default;
-        t_cross(int _x, int _y): x(_x), y(_y){
+        
+        t_cross(){
             cross_texture.loadFromFile(filename);
             cross_sprite.setTexture(cross_texture);
         };
@@ -33,13 +33,15 @@ class t_cross{
             return corss;
         };
 
-        void set_coord(int x, int y){
-            this->x = x;
-            this->y = y;
+        void set_coord(int _x, int _y){
+            this->x = _x;
+            this->y = _y;
         };
 
          void draw(sf :: RenderWindow &window, int _x, int _y);
+         
         
+
 };
 
 
