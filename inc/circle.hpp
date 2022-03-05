@@ -7,6 +7,10 @@
 
 #include"location.hpp"
 
+
+/*  This class define all parametrs of circle needed to display
+    and set position on gameboard                             */
+
 class t_circle{
 
     private:
@@ -33,7 +37,7 @@ class t_circle{
             return filename;
         };
 
-        t_circ_cross get_type(){
+        t_circ_cross get_type(){   // return type of sprite 
             return circ;
         };
 

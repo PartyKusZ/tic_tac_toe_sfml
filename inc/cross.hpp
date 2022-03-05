@@ -5,6 +5,12 @@
 #include<SFML/Window.hpp>
 #include<SFML/Graphics.hpp>
 
+
+/*  This class define all parametrs of cross needed to display
+    and set position on gameboard                             */
+
+
+
 class t_cross{
 
     private:
@@ -29,7 +35,7 @@ class t_cross{
             return filename;
         };
 
-        t_circ_cross get_type(){
+        t_circ_cross get_type(){    // return type of sprite 
             return corss;
         };
 

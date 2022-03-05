@@ -1,14 +1,15 @@
 #include"gameboard.hpp"
 
-void t_gameboard :: add_circle(int x,int y){
+void t_gameboard :: add_circle(int x,int y){ //adding a circle depending on where you clicked
+
     circle.set_coord(x,y);
     if((x > Ix && x < IIx) && (y > Iy && y < IIy)){
         if(tab[0][0].XO == t_circ_cross :: empty){
             tab[0][0].XO = circle.get_type();
             tab[0][0].x = Ix;
             tab[0][0].y = Iy;
-            std :: cout << "X: add circle " << tab[0][0].x<< std :: endl;
-            std :: cout << "Y: add circle " << tab[0][0].y<< std :: endl;   
+            //std :: cout << "X: add circle " << tab[0][0].x<< std :: endl;
+            //std :: cout << "Y: add circle " << tab[0][0].y<< std :: endl;   
         }
     }
 
@@ -17,8 +18,8 @@ void t_gameboard :: add_circle(int x,int y){
             tab[1][0].XO = circle.get_type();
             tab[1][0].x = IIx;
             tab[1][0].y = Iy;
-            std :: cout << "X: add circle " << tab[1][0].x<< std :: endl;
-            std :: cout << "Y: add circle " << tab[1][0].y<< std :: endl;   
+            //std :: cout << "X: add circle " << tab[1][0].x<< std :: endl;
+            //std :: cout << "Y: add circle " << tab[1][0].y<< std :: endl;   
         }
            
     }
@@ -28,8 +29,8 @@ void t_gameboard :: add_circle(int x,int y){
             tab[2][0].XO = circle.get_type();
             tab[2][0].x = IIIx;
             tab[2][0].y = Iy;
-            std :: cout << "X: add circle " << tab[2][0].x<< std :: endl;
-            std :: cout << "Y: add circle " << tab[2][0].y<< std :: endl;   
+            //std :: cout << "X: add circle " << tab[2][0].x<< std :: endl;
+            //std :: cout << "Y: add circle " << tab[2][0].y<< std :: endl;   
         }
     }
 
@@ -38,8 +39,8 @@ void t_gameboard :: add_circle(int x,int y){
             tab[0][1].XO = circle.get_type();
             tab[0][1].x = Ix;
             tab[0][1].y = IIy;
-            std :: cout << "X: add circle " << tab[0][1].x<< std :: endl;
-            std :: cout << "Y: add circle " << tab[0][1].y<< std :: endl;   
+           // std :: cout << "X: add circle " << tab[0][1].x<< std :: endl;
+           // std :: cout << "Y: add circle " << tab[0][1].y<< std :: endl;   
         }
     }
 
@@ -48,8 +49,8 @@ void t_gameboard :: add_circle(int x,int y){
             tab[1][1].XO = circle.get_type();   
             tab[1][1].x = IIx;
             tab[1][1].y = IIy;
-            std :: cout << "X: add circle " << tab[1][1].x<< std :: endl;
-            std :: cout << "Y: add circle " << tab[1][1].y<< std :: endl;   
+            //std :: cout << "X: add circle " << tab[1][1].x<< std :: endl;
+            //std :: cout << "Y: add circle " << tab[1][1].y<< std :: endl;   
         }
     }
     
@@ -58,8 +59,8 @@ void t_gameboard :: add_circle(int x,int y){
             tab[2][1].XO = circle.get_type();
             tab[2][1].x = IIIx;
             tab[2][1].y = IIy;
-            std :: cout << "X: add circle " << tab[2][1].x<< std :: endl;
-            std :: cout << "Y: add circle " << tab[2][1].y<< std :: endl;   
+            //std :: cout << "X: add circle " << tab[2][1].x<< std :: endl;
+            //std :: cout << "Y: add circle " << tab[2][1].y<< std :: endl;   
         }
     }
 
@@ -68,8 +69,8 @@ void t_gameboard :: add_circle(int x,int y){
             tab[0][2].XO = circle.get_type();
             tab[0][2].x = Ix;
             tab[0][2].y = IIIy;
-            std :: cout << "X: add circle " << tab[0][2].x<< std :: endl;
-            std :: cout << "Y: add circle " << tab[0][2].y<< std :: endl;   
+           // std :: cout << "X: add circle " << tab[0][2].x<< std :: endl;
+           // std :: cout << "Y: add circle " << tab[0][2].y<< std :: endl;   
         }
     }
 
@@ -78,8 +79,8 @@ void t_gameboard :: add_circle(int x,int y){
             tab[1][2].XO = circle.get_type();
             tab[1][2].x = IIx;
             tab[1][2].y = IIIy;
-            std :: cout << "X: add circle " << tab[1][2].x<< std :: endl;
-            std :: cout << "Y: add circle " << tab[1][2].y<< std :: endl;   
+           // std :: cout << "X: add circle " << tab[1][2].x<< std :: endl;
+           // std :: cout << "Y: add circle " << tab[1][2].y<< std :: endl;   
         }
     }
 
@@ -88,8 +89,8 @@ void t_gameboard :: add_circle(int x,int y){
             tab[2][2].XO = circle.get_type();
             tab[2][2].x = IIIx;
             tab[2][2].y = IIIy;
-            std :: cout << "X: add circle " << tab[2][2].x<< std :: endl;
-            std :: cout << "Y: add circle " << tab[2][2].y<< std :: endl;   
+            //std :: cout << "X: add circle " << tab[2][2].x<< std :: endl;
+            //std :: cout << "Y: add circle " << tab[2][2].y<< std :: endl;   
         }
     }
     
@@ -97,7 +98,9 @@ void t_gameboard :: add_circle(int x,int y){
 }
 
 
-void t_gameboard :: add_cross(int x, int y){
+void t_gameboard :: add_cross(int x, int y){ //adding a circle depending on where you clicked
+
+
 
    cross.set_coord(x,y);
      if((x > Ix && x < IIx) && (y > Iy && y < IIy)){
@@ -105,8 +108,8 @@ void t_gameboard :: add_cross(int x, int y){
             tab[0][0].XO = cross.get_type();
             tab[0][0].x = Ix;
             tab[0][0].y = Iy;
-            std :: cout << "X: add cross " << tab[0][0].x<< std :: endl;
-            std :: cout << "Y: add cross " << tab[0][0].y<< std :: endl;   
+           // std :: cout << "X: add cross " << tab[0][0].x<< std :: endl;
+           // std :: cout << "Y: add cross " << tab[0][0].y<< std :: endl;   
         }
     }
 
@@ -115,8 +118,8 @@ void t_gameboard :: add_cross(int x, int y){
             tab[1][0].XO = cross.get_type();
             tab[1][0].x = IIx;
             tab[1][0].y = Iy;
-            std :: cout << "X: add cross " << tab[1][0].x<< std :: endl;
-            std :: cout << "Y: add cross " << tab[1][0].y<< std :: endl;   
+            //std :: cout << "X: add cross " << tab[1][0].x<< std :: endl;
+            //std :: cout << "Y: add cross " << tab[1][0].y<< std :: endl;   
         }
            
     }
@@ -126,8 +129,8 @@ void t_gameboard :: add_cross(int x, int y){
             tab[2][0].XO = cross.get_type();
             tab[2][0].x = IIIx;
             tab[2][0].y = Iy;
-            std :: cout << "X: add cross " << tab[2][0].x<< std :: endl;
-            std :: cout << "Y: add cross " << tab[2][0].y<< std :: endl;   
+           // std :: cout << "X: add cross " << tab[2][0].x<< std :: endl;
+           // std :: cout << "Y: add cross " << tab[2][0].y<< std :: endl;   
         }
     }
 
@@ -136,8 +139,8 @@ void t_gameboard :: add_cross(int x, int y){
             tab[0][1].XO = cross.get_type();
             tab[0][1].x = Ix;
             tab[0][1].y = IIy;
-            std :: cout << "X: add cross " << tab[0][1].x<< std :: endl;
-            std :: cout << "Y: add cross " << tab[0][1].y<< std :: endl;   
+           // std :: cout << "X: add cross " << tab[0][1].x<< std :: endl;
+           // std :: cout << "Y: add cross " << tab[0][1].y<< std :: endl;   
         }
     }
 
@@ -146,8 +149,8 @@ void t_gameboard :: add_cross(int x, int y){
             tab[1][1].XO = cross.get_type();   
             tab[1][1].x = IIx;
             tab[1][1].y = IIy;
-            std :: cout << "X: add cross " << tab[1][1].x<< std :: endl;
-            std :: cout << "Y: add cross " << tab[1][1].y<< std :: endl;   
+            //std :: cout << "X: add cross " << tab[1][1].x<< std :: endl;
+            //std :: cout << "Y: add cross " << tab[1][1].y<< std :: endl;   
         }
     }
     
@@ -156,8 +159,8 @@ void t_gameboard :: add_cross(int x, int y){
             tab[2][1].XO = cross.get_type();
             tab[2][1].x = IIIx;
             tab[2][1].y = IIy;
-            std :: cout << "X: add cross " << tab[2][1].x<< std :: endl;
-            std :: cout << "Y: add cross " << tab[2][1].y<< std :: endl;   
+           // std :: cout << "X: add cross " << tab[2][1].x<< std :: endl;
+           // std :: cout << "Y: add cross " << tab[2][1].y<< std :: endl;   
         }
     }
 
@@ -166,8 +169,8 @@ void t_gameboard :: add_cross(int x, int y){
             tab[0][2].XO = cross.get_type();
             tab[0][2].x = Ix;
             tab[0][2].y = IIIy;
-            std :: cout << "X: add cross " << tab[0][2].x<< std :: endl;
-            std :: cout << "Y: add cross " << tab[0][2].y<< std :: endl;   
+            //std :: cout << "X: add cross " << tab[0][2].x<< std :: endl;
+            //std :: cout << "Y: add cross " << tab[0][2].y<< std :: endl;   
         }
     }
 
@@ -176,8 +179,8 @@ void t_gameboard :: add_cross(int x, int y){
             tab[1][2].XO = cross.get_type();
             tab[1][2].x = IIx;
             tab[1][2].y = IIIy;
-            std :: cout << "X: add cross " << tab[1][2].x<< std :: endl;
-            std :: cout << "Y: add cross " << tab[1][2].y<< std :: endl;   
+          //  std :: cout << "X: add cross " << tab[1][2].x<< std :: endl;
+          //  std :: cout << "Y: add cross " << tab[1][2].y<< std :: endl;   
         }
     }
 
@@ -186,8 +189,8 @@ void t_gameboard :: add_cross(int x, int y){
             tab[2][2].XO = cross.get_type();
             tab[2][2].x = IIIx;
             tab[2][2].y = IIIy;
-            std :: cout << "X: add  cross " << tab[2][2].x<< std :: endl;
-            std :: cout << "Y: add  cross " << tab[2][2].y<< std :: endl;   
+          //  std :: cout << "X: add  cross " << tab[2][2].x<< std :: endl;
+          //  std :: cout << "Y: add  cross " << tab[2][2].y<< std :: endl;   
         }
     }
     
@@ -196,7 +199,7 @@ void t_gameboard :: add_cross(int x, int y){
 }
 
 
-void t_gameboard :: clear_gameboard(){
+void t_gameboard :: clear_gameboard(){ // cleaning of tab[][]
     for(int i = 0; i < 3; ++i){
         for(int j = 0; j < 3; ++j){
             tab[i][j].XO = t_circ_cross :: empty;
@@ -356,8 +359,8 @@ void t_gameboard :: game_event(sf :: RenderWindow &window,sf :: Event &event){
     if(event.type == sf :: Event :: MouseButtonPressed && event.mouseButton.button == sf :: Mouse :: Left){
         mouse_location_window = sf :: Mouse :: getPosition(window);
         mouse_location_scene = window.mapPixelToCoords(mouse_location_window);
-        std :: cout << "X: " << mouse_location_scene.x<< std :: endl;
-        std :: cout << "Y: " << mouse_location_scene.y<< std :: endl;
+       // std :: cout << "X: " << mouse_location_scene.x<< std :: endl;
+       // std :: cout << "Y: " << mouse_location_scene.y<< std :: endl;
         x_or_o++;
     }
     if(x_or_o % 2 == 0){

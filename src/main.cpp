@@ -14,8 +14,7 @@ int main()
 
 
     sf::RenderWindow window(sf::VideoMode(787, 836,32), "TIC TAC TOE!");
-    sf :: Vector2i pozycja_myszki_okno;
-    sf :: Vector2f pozycja_myszki_scena;
+    
     window.clear();
     while (window.isOpen())
     {
@@ -30,7 +29,7 @@ int main()
 
         
        
-        gameboard.draw(window);
+        gameboard.draw_gameboard(window);
         gameboard.draw_circles_crosses(window);
         gameboard.draw_win(window,event);
 

@@ -1,6 +1,10 @@
 #ifndef GAMEBOARD_HPP
 #define GAMEBOARD_HPP
 
+/* These constants define position of 
+    each circles and crosses on gameboard 
+    e.g. Ix and Iy define coodrinates of first square (1,1) 
+    on gameboard*/
 #define Ix 60
 #define IIx 276
 #define IIIx 523
@@ -20,6 +24,14 @@
 #include<SFML/Graphics.hpp>
 #include<iostream>
 using namespace std;
+
+
+/*This class define mechanisms related to the game, such as
+
+localization of each circle and cross on  gameboard, chcecking 
+
+who won */
+
 class t_gameboard {
 
     private:
@@ -27,7 +39,7 @@ class t_gameboard {
 
         std :: string filename = "textures/gameboard.png";
 
-        t_location tab[3][3];
+        t_location tab[3][3]; // gameboard: in this table is added each cross and circle 
 
         t_circle circle;
         t_cross cross;
@@ -41,7 +53,7 @@ class t_gameboard {
 
         t_location who_win ;
 
-        int x_or_o = 0;
+        int x_or_o = 0; // using to decide whose move 
 
 
         
@@ -58,16 +70,16 @@ class t_gameboard {
             return filename;
         };  
 
-       void draw(sf :: RenderWindow &window){
+       void draw_gameboard(sf :: RenderWindow &window){
            window.draw(gameboard_sprite);
        };
-       void add_cross(int x, int y);
-       void add_circle(int x, int y);
-       void draw_circles_crosses(sf :: RenderWindow &window);
-       void game_event(sf :: RenderWindow &window, sf::Event &event); 
-       void clear_gameboard();
+       void add_cross(int x, int y); // adding crosx to tab[][]
+       void add_circle(int x, int y); // adding circle to tab[][]
+       void draw_circles_crosses(sf :: RenderWindow &window); // drawing circle and crosses on scene
+       void game_event(sf :: RenderWindow &window, sf::Event &event);  // cheching click on the scene 
+       void clear_gameboard(); // cleanig the scene 
        t_location check_win();
-       void draw_win(sf :: RenderWindow &window,sf :: Event &event);
+       void draw_win(sf :: RenderWindow &window,sf :: Event &event); //drawing line of winning 
        bool win();
        
          
